@@ -1,0 +1,40 @@
+# Core Files #
+**/.DS_Store
+/html/*.log
+/html/.htaccess
+/html/wp-content/index.php
+/html/wp-content/themes/index.php
+/html/wp-admin/*
+/html/wp-includes/*
+/html/index.php
+/html/license.txt
+/html/readme.html
+/html/wp-activate.php
+/html/wp-blog-header.php
+/html/wp-comments-post.php
+/html/wp-config.php
+/html/wp-config-sample.php
+/html/wp-cron.php
+/html/wp-links-opml.php
+/html/wp-load.php
+/html/wp-login.php
+/html/wp-mail.php
+/html/wp-settings.php
+/html/wp-signup.php
+/html/wp-trackback.php
+/html/xmlrpc.php
+/html/sitemap.xml
+/html/sitemap.xml.gz
+
+# Core theme #
+/html/wp-content/themes/twentyfifteen/*
+/html/wp-content/themes/twentyfourteen/*
+/html/wp-content/themes/twentysixteen/*
+/html/wp-content/themes/twentyseventeen/*
+
+# Plugins #
+/html/wp-content/plugins/*
+
+# Project specific #
+.sass-cache
+node_modules/

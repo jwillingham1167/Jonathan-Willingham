@@ -1,0 +1,21 @@
+{
+  "name": "jonathanwordpress",
+  "version": "1.0.0",
+  "description": "Jonathan Willingham Website",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwillingham1167/Jonathan-Willingham.git"
+  },
+  "author": "Jonathan Willingham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwillingham1167/Jonathan-Willingham/issues"
+  },
+  "homepage": "https://github.com/jwillingham1167/Jonathan-Willingham#readme"
+}
