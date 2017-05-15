@@ -3,6 +3,7 @@
 * Rise - Header
 */
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>

@@ -1,1 +1,0 @@
-{"version":3,"sources":["rise.scss"],"names":[],"mappings":"AAAA;EACI,WAAU;EACV,gBAAe;CAClB;;AAED;EACI,YAAW;CACd","file":"rise.css","sourcesContent":["h1 {\n    color: red;\n    font-size: 40px;\n}\n\np {\n    color: pink;\n}"]}

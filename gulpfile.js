@@ -6,8 +6,8 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload');
 
 /* Input and output */
-var input = 'html/wp-content/themes/rise/scss/**/*.scss',
-    output = 'html/wp-content/themes/rise/css';
+var input = 'html/wp-content/themes/rise/assets/scss/**/*.scss',
+    output = 'html/wp-content/themes/rise/assets/css';
 
 var sassOptions = {
     errLogToConsole: true,
