@@ -1,11 +1,29 @@
 .home {
 
     .homepage-landing {
+        @include full-width;
+        animation: fade-in 1s ease;
         background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/f14.jpg");
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
+        display: table;
         height: 100vh;
-        overflow: hidden;
+        width: 100vw;
+
+        .landing-title {
+            animation: landing-fade-slide 1s ease 1s forwards;
+            color: $off-white;
+            display: table-cell;
+            font-size: 8vw;
+            opacity: 0;
+            position: relative;
+            text-align: center;
+            vertical-align: middle;
+
+            @media screen and (min-width: $medium-break) {
+                font-size: 6vw;
+            }
+        }
     }
 }

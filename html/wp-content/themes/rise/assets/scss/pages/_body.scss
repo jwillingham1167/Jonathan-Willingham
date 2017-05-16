@@ -4,12 +4,12 @@
 
 .body-wrapper {
     position: relative;
-    right: 0;
-    transition: 0.5s right ease;
+    left: 0;
+    transition: 0.5s left ease;
 
     &.slide {
-        right: 50%;
-        transition: 0.5s right ease;
+        left: 50%;
+        transition: 0.5s left ease;
     }
 }
 

@@ -1,0 +1,9 @@
+/*
+* Mixins
+*/
+
+@mixin full-width {
+    left: 50%;
+    margin-left: -50vw;
+    position: relative;
+}

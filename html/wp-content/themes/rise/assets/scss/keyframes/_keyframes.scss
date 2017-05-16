@@ -1,0 +1,33 @@
+@keyframes fade-in {
+    0% { 
+        opacity: 0;
+    }
+
+    100% { 
+        opacity: 1;
+    }
+}
+
+@keyframes header-slide-left {
+    0% {
+        opacity: 0;
+        left: 50%;
+    }
+
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+@keyframes landing-fade-slide {
+    0% {
+        opacity: 0;
+        transform: translateY(25%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
