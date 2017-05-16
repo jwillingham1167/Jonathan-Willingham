@@ -68,6 +68,7 @@ table {
 * Typography
 */
 body {
+  color: #333333;
   font-size: 18px;
   font-family: "Noto Sans", sans-serif;
 }
@@ -123,11 +124,6 @@ a:hover {
 /*
 * General Body Styles
 */
-#maincontent {
-  margin: 0 auto;
-  max-width: 1440px;
-}
-
 .body-wrapper {
   position: relative;
   right: 0;
@@ -141,11 +137,19 @@ a:hover {
   transition: 0.5s right ease;
 }
 
+#maincontent {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
 /* 
 * Header
 */
 #header {
   background-color: #333333;
+  -webkit-box-shadow: 0 0px 20px black;
+          box-shadow: 0 0px 20px black;
+  border-bottom: 2px solid goldenrod;
 }
 
 #header .header-container {
@@ -322,6 +326,17 @@ a:hover {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.home .homepage-landing {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/f14.jpg");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/f14.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/f14.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=rise.css.map */

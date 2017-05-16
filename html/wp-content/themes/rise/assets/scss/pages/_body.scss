@@ -2,10 +2,6 @@
 * General Body Styles
 */
 
-#maincontent {
-    margin: 0 auto;
-    max-width: $max-width;
-}
 .body-wrapper {
     position: relative;
     right: 0;
@@ -15,4 +11,9 @@
         right: 50%;
         transition: 0.5s right ease;
     }
+}
+
+#maincontent {
+    margin: 0 auto;
+    max-width: $max-width;
 }
