@@ -1,0 +1,10 @@
+.body-wrapper {
+    position: relative;
+    right: 0;
+    transition: 0.5s right ease;
+
+    &.slide {
+        right: 50%;
+        transition: 0.5s right ease;
+    }
+}
