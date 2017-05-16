@@ -6,6 +6,7 @@
     left: 50%;
     margin-left: -50vw;
     position: relative;
+    width: 100vw;
 }
 
 @mixin clearfix {
@@ -15,4 +16,9 @@
         content: '';
         display: table;
     }
+}
+
+@mixin max-width-center {
+    margin: 0 auto;
+    max-width: $max-width;
 }

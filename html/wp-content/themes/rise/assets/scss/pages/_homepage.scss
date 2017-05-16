@@ -10,7 +10,6 @@
         display: table;
         height: 100vh;
         overflow: hidden;
-        width: 100vw;
 
         .landing-title {
             animation: landing-fade-slide 1s ease 1s forwards;
@@ -29,13 +28,16 @@
     }
 
     .tools-container {
+        @include full-width;
         background-color: $white;
-        padding: 3em 2em;
+        padding: 2em 0;
 
         h2 {
+            @include max-width-center;
             border-bottom: 5px solid $blue;
             border-top: 5px solid $blue;
             font-size: 3em;
+            margin-bottom: 1em;
             text-align: center;
         }
 

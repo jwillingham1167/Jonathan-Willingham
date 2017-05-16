@@ -9,12 +9,16 @@ $(document).ready(function() {
     });
     /* ------------ End Mobile menu toggle ------------ */
 
-    /* ------------ Parallax Scrolling ------------ */
+    /* ------------ Scroll Functions ------------ */
     $(window).scroll(function() {
         $('.homepage-landing .landing-title').css({
             'bottom' : -($(this).scrollTop()/1.75)+"px"
         });
     });
-    /* ------------ End Parallax scrolling ------------ */
+    /* ------------ End Scroll Functions ------------ */
+
+    /* ------------ Set content margin bottom = footer height ------------ */
+    $('#maincontent').css("margin-bottom", $('#footer').outerHeight());
+    /* ------------ End Set content margin bottom = footer height ------------ */
 
 });

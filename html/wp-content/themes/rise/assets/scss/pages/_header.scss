@@ -14,11 +14,10 @@
     z-index: 10;
 
     .header-container {
+        @include max-width-center;
         align-items: center;
         display: flex;
         justify-content: space-between;
-        margin: 0 auto;
-        max-width: $max-width;
         padding: 0.5em 1em;
 
         .title {
