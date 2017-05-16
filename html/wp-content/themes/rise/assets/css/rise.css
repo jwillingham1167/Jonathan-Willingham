@@ -120,6 +120,14 @@ a:hover {
   transition: 0.4s color ease;
 }
 
+/*
+* General Body Styles
+*/
+#maincontent {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
 .body-wrapper {
   position: relative;
   right: 0;
@@ -161,6 +169,10 @@ a:hover {
   color: #eeeeee;
   line-height: normal;
   text-align: center;
+}
+
+#header .header-container .title a {
+  color: #eeeeee;
 }
 
 #header .menu li {
@@ -246,6 +258,70 @@ a:hover {
   color: goldenrod;
   -webkit-transition: 0.4s background-color ease;
   transition: 0.4s background-color ease;
+}
+
+/* 
+* Footer
+*/
+#footer {
+  background-color: #333333;
+  -webkit-box-shadow: inset 0 0 30px #000000;
+          box-shadow: inset 0 0 30px #000000;
+  padding: 2em 0;
+}
+
+#footer .footer-container {
+  background-color: #262626;
+  -webkit-box-shadow: 0 0 30px #000000;
+          box-shadow: 0 0 30px #000000;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 2em 1em;
+  text-align: center;
+}
+
+#footer .title {
+  border-bottom: 5px solid goldenrod;
+  border-top: 5px solid goldenrod;
+  display: table;
+  line-height: normal;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#footer .title a {
+  color: #eeeeee;
+}
+
+#footer p {
+  color: #eeeeee;
+  margin: 1em 0;
+}
+
+#footer .icon-wrapper .icon-container {
+  background-color: #29acDC;
+  border-radius: 50%;
+  display: inline-block;
+  height: 65px;
+  margin: 0 1em;
+  -webkit-transition: 0.4s background-color ease;
+  transition: 0.4s background-color ease;
+  width: 65px;
+}
+
+#footer .icon-wrapper .icon-container:hover {
+  background-color: goldenrod;
+  -webkit-transition: 0.4s background-color ease;
+  transition: 0.4s background-color ease;
+}
+
+#footer .icon-wrapper .icon-container i {
+  color: #000000;
+  font-size: 3em;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 /*# sourceMappingURL=rise.css.map */
