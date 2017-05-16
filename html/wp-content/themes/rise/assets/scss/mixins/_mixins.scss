@@ -7,3 +7,12 @@
     margin-left: -50vw;
     position: relative;
 }
+
+@mixin clearfix {
+
+    &:after {
+        clear: both;
+        content: '';
+        display: table;
+    }
+}

@@ -9,6 +9,7 @@
         background-position: center;
         display: table;
         height: 100vh;
+        overflow: hidden;
         width: 100vw;
 
         .landing-title {
@@ -23,6 +24,40 @@
 
             @media screen and (min-width: $medium-break) {
                 font-size: 6vw;
+            }
+        }
+    }
+
+    .tools-container {
+        background-color: $white;
+        padding: 3em 2em;
+
+        h2 {
+            border-bottom: 5px solid $blue;
+            border-top: 5px solid $blue;
+            font-size: 3em;
+            text-align: center;
+        }
+
+        .tool-images {
+
+            .image-container {
+                display: inline-block;
+                margin: 2em 0;
+                text-align: center;
+                width: 49%;
+
+                @media screen and (min-width: $medium-break) {
+                    width: 24%;
+                }
+
+                img {
+                    height: auto;
+                    max-height: 250px;
+                    max-width: 100%;
+                    position: relative;
+                    vertical-align: middle;
+                }
             }
         }
     }

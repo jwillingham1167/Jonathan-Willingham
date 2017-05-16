@@ -418,6 +418,7 @@ a:hover {
   background-position: center;
   display: table;
   height: 100vh;
+  overflow: hidden;
   width: 100vw;
 }
 
@@ -437,6 +438,39 @@ a:hover {
   .home .homepage-landing .landing-title {
     font-size: 6vw;
   }
+}
+
+.home .tools-container {
+  background-color: #ffffff;
+  padding: 3em 2em;
+}
+
+.home .tools-container h2 {
+  border-bottom: 5px solid #29acDC;
+  border-top: 5px solid #29acDC;
+  font-size: 3em;
+  text-align: center;
+}
+
+.home .tools-container .tool-images .image-container {
+  display: inline-block;
+  margin: 2em 0;
+  text-align: center;
+  width: 49%;
+}
+
+@media screen and (min-width: 768px) {
+  .home .tools-container .tool-images .image-container {
+    width: 24%;
+  }
+}
+
+.home .tools-container .tool-images .image-container img {
+  height: auto;
+  max-height: 250px;
+  max-width: 100%;
+  position: relative;
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=rise.css.map */
