@@ -9,6 +9,38 @@
 <div class="homepage-landing">
     <h1 class="landing-title">Jonathan Willingham</h1>
 </div>
+<div class="about-me-wrapper">
+    <div class="about-me-container">
+        <h2>About Me</h2>
+        <div class="content-wrapper">
+            <div class="icon-container">
+                <i class="fa fa-codepen" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="icon-container">
+                <i class="fa fa-codepen" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="icon-container">
+                <i class="fa fa-codepen" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="tools-container">
     <h2>Tools I Use</h2>
     <div class="tool-images">

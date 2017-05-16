@@ -27,21 +27,105 @@
         }
     }
 
+    .about-me-wrapper {
+        @include full-width;
+        // animation-name: fade-in, about-me-slide-down;
+        // animation-duration: 1s, 1s;
+        // animation-timing-function: ease, ease;
+        // animation-delay: 0s, 1s;
+        // animation-fill-mode: none, forwards;
+        background-color: $blue;
+        //margin-top: -25vh; // Keyframes animation setup
+        padding: 2em 0;
+
+        .about-me-container {
+            @include clearfix;
+            @include max-width-center;
+            opacity: 0;
+            transform: translateY(20%);
+
+            &.show {
+                opacity: 1;
+                transform: translateY(0);
+                transition: 1s ease;
+            }
+
+            h2 {
+                color: $off-white;
+                border-bottom: 3px solid $off-white;
+                font-size: 3em;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .content-wrapper {
+                display: inline-block;
+                float: left;
+                margin: 2em 0;
+                text-align: center;
+                width: 100%;
+
+                @media screen and (min-width: $medium-break) {
+                    width: 33.3%;
+                }
+            }
+
+            .icon-container {
+                background-color: $dark-gray;
+                border-radius: 50%;
+                display: table;
+                height: 125px;
+                margin: 0 auto;
+                text-align: center;
+                width: 125px;
+
+                i {
+                    color: $off-white;
+                    display: table-cell;
+                    font-size: 5em;
+                    vertical-align: middle;
+                }
+            }
+
+            .text {
+                color: $off-white;
+                padding: 0 1em;
+
+                h3 {
+                    margin: 0.33em 0;
+                }
+
+                p {
+                    text-align: left;
+                }
+
+            }
+        }
+    }
+
     .tools-container {
         @include full-width;
         background-color: $white;
+        opacity: 0;
         padding: 2em 0;
+        transform: translateX(-30%);
+
+        &.show {
+            opacity: 1;
+            transform: translateX(0);
+            transition: 1s ease;
+        }
 
         h2 {
             @include max-width-center;
             border-bottom: 5px solid $blue;
-            border-top: 5px solid $blue;
             font-size: 3em;
             margin-bottom: 1em;
             text-align: center;
         }
 
         .tool-images {
+            padding: 0 1em;
 
             .image-container {
                 display: inline-block;

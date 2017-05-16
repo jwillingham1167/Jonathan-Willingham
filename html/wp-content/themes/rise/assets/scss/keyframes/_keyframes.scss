@@ -31,3 +31,13 @@
         transform: translateY(0);
     }
 }
+
+@keyframes about-me-slide-down {
+    0% {
+        margin-top: -25vh;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}

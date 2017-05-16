@@ -10,15 +10,28 @@ $(document).ready(function() {
     /* ------------ End Mobile menu toggle ------------ */
 
     /* ------------ Scroll Functions ------------ */
-    $(window).scroll(function() {
+     $(window).scroll(function() { //scroll function
+
         $('.homepage-landing .landing-title').css({
             'bottom' : -($(this).scrollTop()/1.75)+"px"
         });
+
     });
-    /* ------------ End Scroll Functions ------------ */
+     /* ------------ End Scroll Functions ------------ */
 
-    /* ------------ Set content margin bottom = footer height ------------ */
-    $('#maincontent').css("margin-bottom", $('#footer').outerHeight());
-    /* ------------ End Set content margin bottom = footer height ------------ */
 
-});
+    $('.about-me-wrapper').waypoint({
+        handler: function() {
+        $('.about-me-container').addClass("show");
+    },
+        offset: '60%'
+    });
+
+    $('.tools-container').waypoint({
+        handler: function() {
+            $('.tools-container').addClass("show");
+        },
+        offset: '60%'
+    });
+
+ });
