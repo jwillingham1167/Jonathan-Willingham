@@ -272,6 +272,13 @@ a:hover {
   text-align: center;
 }
 
+#header .header-container .title.resize {
+  border-width: 2px;
+  font-size: 1em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
 #header .header-container .title a {
   color: #eeeeee;
 }

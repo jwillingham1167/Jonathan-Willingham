@@ -27,6 +27,12 @@
             line-height: normal;
             text-align: center;
 
+            &.resize {
+                border-width: 2px;
+                font-size: 1em;
+                transition: all 0.5s ease;
+            }
+
             a {
                 color: $off-white;
             }

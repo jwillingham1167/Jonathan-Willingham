@@ -10,7 +10,11 @@ $(document).ready(function() {
     /* ------------ End Mobile menu toggle ------------ */
 
     /* ------------ Scroll Functions ------------ */
-     $(window).scroll(function() { //scroll function
+    var windowTop = $(window).scroll(() => { //scroll function
+
+        if (windowTop.scrollTop() > $(window).height() / 1.5) {
+            $('#header .title').addClass("resize");
+        }
 
         $('.homepage-landing .landing-title').css({
             'bottom' : -($(this).scrollTop()/1.75)+"px"
