@@ -6,12 +6,12 @@
     background-color: $dark-gray;
     box-shadow: inset 0 0 30px $black;
     padding: 2em 0;
+    width: 100%;
 
     .footer-container {
+        @include max-width-center;
         background-color: $dark-gray-darken;
         box-shadow: 0 0 30px $black;
-        margin: 0 auto;
-        max-width: $max-width;
         padding: 2em 1em;
         text-align: center;
     }

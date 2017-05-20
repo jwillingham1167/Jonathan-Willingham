@@ -1,0 +1,84 @@
+.blog {
+
+    .banner {
+        @include full-width;
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/yosemite.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        display: table;
+        height: 30vh;
+        overflow: hidden;
+
+        .banner-title {
+            animation: fade-in 1s ease 1s forwards;
+            color: $off-white;
+            display: table-cell;
+            font-size: 12vw;
+            opacity: 0;
+            position: relative;
+            text-align: center;
+            vertical-align: middle;
+
+            @media screen and (min-width: $medium-break) {
+                font-size: 6vw;
+            }
+        }
+    }
+
+    .posts-container {
+
+        @media screen and (min-width: $medium-break) {
+            width: 66%
+        }
+
+        .post {
+            margin: 2em 0;
+
+            &:after {
+                background-color: $light-gray;
+                content: '';
+                display: block;
+                height: 1px;
+                margin: 2em auto;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            .title {
+                font-size: 1.55em;
+            }
+
+            .meta {
+                font-size: 0.75em;
+                margin: 0.25em 0;
+
+                .divider {
+                    margin: 0 0.5em;
+                }
+
+                .post-categories {
+                    display: inline-block;
+
+                    a {
+                        color: $blue;
+
+                        &:hover {
+                            color: $gold;
+                        }
+                    }
+                }
+            }
+
+            .content {
+                margin-bottom: 1em;
+            }
+
+            .more {
+
+            }
+        }
+    }
+}

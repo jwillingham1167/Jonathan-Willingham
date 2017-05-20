@@ -1,0 +1,7 @@
+.button {
+    @include button-style($black, $white);
+}
+
+.button-blue {
+    @include button-style($blue, $white);
+}

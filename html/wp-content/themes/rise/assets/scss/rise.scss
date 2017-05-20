@@ -3,13 +3,22 @@
         /* Vendor */
         'vendor/reset',
 
+        /* Mixis */
+        'mixins/mixins',
+
+        /* Keyframes */
+        'keyframes/keyframes',
+
         /* Core */
         'core/colors',
         'core/settings',
         'core/typography',
+        'core/cta',
 
         /* Pages */
         'pages/body',
         'pages/header',
         'pages/footer',
-        'pages/homepage';
+        'pages/homepage',
+        'pages/blog',
+        'pages/sections/sidebar';
