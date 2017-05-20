@@ -12,11 +12,11 @@ $(document).ready(function() {
     /* ------------ Scroll Functions ------------ */
     var windowTop = $(window).scroll(() => { //scroll function
 
-        if (windowTop.scrollTop() > $(window).height() / 1.5) {
-            $('#header .title').addClass("resize");
+        if (windowTop.scrollTop() > 1) {
+            $('#header .title').addClass("resized");
         }
 
-        $('.homepage-landing .landing-title').css({
+        $('.homepage-landing .landing-title, .banner > .banner-title').css({
             'bottom' : -($(this).scrollTop()/1.75)+"px"
         });
 

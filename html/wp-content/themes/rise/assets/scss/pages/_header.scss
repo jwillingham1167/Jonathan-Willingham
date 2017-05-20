@@ -3,15 +3,18 @@
 */
 
 #header {
-    animation: header-slide-left 1s ease 1s forwards;
     background-color: $dark-gray;
     box-shadow: 0 0px 20px black;
     border-bottom: 2px solid $gold;
-    opacity: 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
+
+    &.animate {
+        animation: header-slide-left 1s ease 1s forwards;
+        opacity: 0;
+    }
 
     .header-container {
         @include max-width-center;
@@ -27,7 +30,7 @@
             line-height: normal;
             text-align: center;
 
-            &.resize {
+            &.resized {
                 border-width: 2px;
                 font-size: 1em;
                 transition: all 0.5s ease;

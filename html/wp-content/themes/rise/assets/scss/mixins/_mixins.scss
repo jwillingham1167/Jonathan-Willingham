@@ -22,3 +22,19 @@
     margin: 0 auto;
     max-width: $max-width;
 }
+
+@mixin button-style($color1, $color2) {
+        border: 3px solid $color1;
+        color: $color1;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 0.5em 0.75em;
+        transition: all 0.5s ease;
+
+        &:hover {
+            background-color: $color1;
+            color: $color2;
+            transition: all 0.5s ease;
+        }
+}
