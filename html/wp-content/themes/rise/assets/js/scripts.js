@@ -15,29 +15,7 @@ $(document).ready(function() {
     /* ------------ End Toggles ------------ */
 
     /* ------------ Scroll Functions ------------ */
-
-
-    var sidebarOffsetTop = $('#sidebar').offset().top - $('#header').height() - 32;
-    var sidebarOffsetRight = ($(window).width() - ($('#sidebar').offset().left + $('#sidebar').outerWidth()));
-    var headerOffset = $('#header').height();
-    var sidebarWidth = $('#sidebar').width();
-
     var windowTop = $(window).scroll(() => { //scroll function
-
-        if ($(window).width() > 768) {
-            if (windowTop.scrollTop() >= sidebarOffsetTop) { // Sidebar sticky
-                $('#sidebar').css({
-                    "position" : 'fixed',
-                    'right' : sidebarOffsetRight,
-                    'top' : headerOffset,
-                    'width' : sidebarWidth
-                });
-            } else {
-                $('#sidebar').css({
-                    'position' : 'static'
-                })
-            }
-        }
 
         if (windowTop.scrollTop() > 1) {
             $('#header .title').addClass("resized");
