@@ -269,7 +269,7 @@ a:hover {
   padding: 0 1em;
 }
 
-#maincontent .blog {
+#maincontent .blog, #maincontent .archive {
   margin: 1em 0;
 }
 
@@ -652,14 +652,14 @@ a:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .blog:after {
+  .blog:after, .archive:after {
     display: table;
     content: '';
     clear: both;
   }
 }
 
-.blog .banner {
+.blog .banner, .archive .banner {
   left: 50%;
   margin-left: -50vw;
   position: relative;
@@ -675,7 +675,7 @@ a:hover {
   overflow: hidden;
 }
 
-.blog .banner .banner-title {
+.blog .banner .banner-title, .archive .banner .banner-title {
   -webkit-animation: fade-in 1s ease 1s forwards;
           animation: fade-in 1s ease 1s forwards;
   color: #eeeeee;
@@ -688,24 +688,24 @@ a:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .blog .banner .banner-title {
+  .blog .banner .banner-title, .archive .banner .banner-title {
     font-size: 6vw;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .blog .posts-container {
+  .blog .posts-container, .archive .posts-container {
     margin: 0 -1em;
     width: 73%;
   }
 }
 
-.blog .posts-container .post {
+.blog .posts-container .post, .archive .posts-container .post {
   margin: 2em 0;
 }
 
 @media screen and (min-width: 768px) {
-  .blog .posts-container .post {
+  .blog .posts-container .post, .archive .posts-container .post {
     display: inline-block;
     float: left;
     position: relative;
@@ -714,25 +714,25 @@ a:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .blog .posts-container .post .post-content {
+  .blog .posts-container .post .post-content, .archive .posts-container .post .post-content {
     height: 100%;
     padding: 0 1em;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .blog .posts-container .post .post-image {
+  .blog .posts-container .post .post-image, .archive .posts-container .post .post-image {
     display: block;
   }
 }
 
-.blog .posts-container .post .post-image img {
+.blog .posts-container .post .post-image img, .archive .posts-container .post .post-image img {
   max-height: 100%;
   max-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .blog .posts-container .post .post-text {
+  .blog .posts-container .post .post-text, .archive .posts-container .post .post-text {
     border-bottom: 1px solid #cccccc;
     display: block;
     padding-bottom: 3em;
@@ -740,46 +740,53 @@ a:hover {
   }
 }
 
-.blog .posts-container .post .post-text .title {
+.blog .posts-container .post .post-text .title, .archive .posts-container .post .post-text .title {
   font-size: 1.55em;
 }
 
-.blog .posts-container .post .post-text .title a {
+.blog .posts-container .post .post-text .title a, .archive .posts-container .post .post-text .title a {
   color: #333333;
 }
 
-.blog .posts-container .post .post-text .title a:hover {
+.blog .posts-container .post .post-text .title a:hover, .archive .posts-container .post .post-text .title a:hover {
   color: #55accc;
 }
 
-.blog .posts-container .post .post-text .meta {
+.blog .posts-container .post .post-text .meta, .archive .posts-container .post .post-text .meta {
   font-size: 0.75em;
   margin: 0.25em 0;
 }
 
-.blog .posts-container .post .post-text .meta .divider {
+.blog .posts-container .post .post-text .meta .divider, .archive .posts-container .post .post-text .meta .divider {
   margin: 0 0.5em;
 }
 
-.blog .posts-container .post .post-text .meta .post-categories {
+.blog .posts-container .post .post-text .meta .post-categories, .archive .posts-container .post .post-text .meta .post-categories {
   display: inline-block;
 }
 
-.blog .posts-container .post .post-text .meta .post-categories li {
+.blog .posts-container .post .post-text .meta .post-categories li, .archive .posts-container .post .post-text .meta .post-categories li {
   display: inline;
   padding: 0 0.15em;
 }
 
-.blog .posts-container .post .post-text .content {
+.blog .posts-container .post .post-text .content, .archive .posts-container .post .post-text .content {
   margin-bottom: 1em;
 }
 
 @media screen and (min-width: 768px) {
-  .blog .posts-container .post .button-blue {
+  .blog .posts-container .post .button-blue, .archive .posts-container .post .button-blue {
     bottom: 0;
     margin-bottom: 1em;
     position: absolute;
   }
+}
+
+.archive .banner {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/yosemite-valley.jpg");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/yosemite-valley.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/yosemite-valley.jpg");
+  background-position: bottom;
 }
 
 #sidebar {
