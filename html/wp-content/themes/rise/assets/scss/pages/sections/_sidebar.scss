@@ -15,6 +15,7 @@
         }
 
         .title {
+            background-color: $light-gray;
             border-bottom: 1px solid $dark-gray;
             display: none;
             font-size: 1.5em;
@@ -25,6 +26,8 @@
             }
 
             &.mobile {
+                background-color: $off-white;
+                border: none;
                 display: block;
 
                 @media screen and (min-width: $medium-break) {
@@ -36,7 +39,7 @@
                 }
 
                 .icon-container {
-                    background-color: #cccccc;
+                    background-color: $light-gray;
                     border-radius: 50%;
                     float: right;
                     height: 35px;
