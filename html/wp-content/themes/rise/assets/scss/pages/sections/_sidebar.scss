@@ -1,5 +1,5 @@
 #sidebar {
-    border: 2px solid $dark-gray;
+    border: 1px solid $dark-gray;
     float: right;
     margin: 2em 0;
     width: 100%;
@@ -15,7 +15,7 @@
         }
 
         .title {
-            border-bottom: 2px solid $light-gray;
+            border-bottom: 1px solid $dark-gray;
             display: none;
             font-size: 1.5em;
             padding: 0.25em 0.5em;
