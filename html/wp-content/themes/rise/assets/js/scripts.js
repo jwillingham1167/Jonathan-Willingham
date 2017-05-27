@@ -1,13 +1,18 @@
 $(document).ready(function() {
 
-    /* ------------ Mobile menu toggle ------------ */
+    /* ------------ Toggles ------------ */
     $('#header .mobile-toggle').on("click", function() {
         // Switch between close and menu icon
         $(this).toggleClass("fa-times fa-bars");
         $('#mobile-nav').toggleClass("show");
         $('.body-wrapper').toggleClass("slide");
     });
-    /* ------------ End Mobile menu toggle ------------ */
+
+    $('#sidebar .title.mobile').on("click", function() {
+        $('.icon-container', this).toggleClass("open");
+        $('#sidebar .categories-list').slideToggle();
+    });
+    /* ------------ End Toggles ------------ */
 
     /* ------------ Scroll Functions ------------ */
     var windowTop = $(window).scroll(() => { //scroll function
@@ -23,7 +28,7 @@ $(document).ready(function() {
     });
      /* ------------ End Scroll Functions ------------ */
 
-
+    /* ------------ Waypoints ------------ */
     $('.about-me-wrapper').waypoint({
         handler: function() {
         $('.about-me-container').addClass("show");
@@ -37,5 +42,8 @@ $(document).ready(function() {
         },
         offset: '60%'
     });
+    /* ------------ End Waypoints ------------ */
+
+
 
  });
