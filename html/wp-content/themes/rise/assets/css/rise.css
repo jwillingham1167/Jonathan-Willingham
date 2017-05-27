@@ -663,7 +663,7 @@ a:hover {
   background-size: cover;
   background-position: center;
   display: table;
-  height: 30vh;
+  height: 40vh;
   overflow: hidden;
 }
 
@@ -736,9 +736,10 @@ a:hover {
   margin-bottom: 1em;
 }
 
-.sidebar {
+#sidebar {
   border: 2px solid #cccccc;
   float: right;
+  margin: 2em 0;
   width: 33%;
 }
 
