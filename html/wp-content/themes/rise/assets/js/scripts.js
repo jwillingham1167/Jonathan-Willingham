@@ -1,16 +1,43 @@
 $(document).ready(function() {
 
-    /* ------------ Mobile menu toggle ------------ */
+    /* ------------ Toggles ------------ */
     $('#header .mobile-toggle').on("click", function() {
         // Switch between close and menu icon
         $(this).toggleClass("fa-times fa-bars");
         $('#mobile-nav').toggleClass("show");
         $('.body-wrapper').toggleClass("slide");
     });
-    /* ------------ End Mobile menu toggle ------------ */
+
+    $('#sidebar .title.mobile').on("click", function() {
+        $('.icon-container', this).toggleClass("open");
+        $('#sidebar .categories-list').slideToggle();
+    });
+    /* ------------ End Toggles ------------ */
 
     /* ------------ Scroll Functions ------------ */
+
+
+    var sidebarOffsetTop = $('#sidebar').offset().top - $('#header').height() - 32;
+    var sidebarOffsetRight = ($(window).width() - ($('#sidebar').offset().left + $('#sidebar').outerWidth()));
+    var headerOffset = $('#header').height();
+    var sidebarWidth = $('#sidebar').width();
+
     var windowTop = $(window).scroll(() => { //scroll function
+
+        if ($(window).width() > 768) {
+            if (windowTop.scrollTop() >= sidebarOffsetTop) { // Sidebar sticky
+                $('#sidebar').css({
+                    "position" : 'fixed',
+                    'right' : sidebarOffsetRight,
+                    'top' : headerOffset,
+                    'width' : sidebarWidth
+                });
+            } else {
+                $('#sidebar').css({
+                    'position' : 'static'
+                })
+            }
+        }
 
         if (windowTop.scrollTop() > 1) {
             $('#header .title').addClass("resized");
@@ -21,13 +48,13 @@ $(document).ready(function() {
         });
 
     });
-     /* ------------ End Scroll Functions ------------ */
+    /* ------------ End Scroll Functions ------------ */
 
-
+    /* ------------ Waypoints ------------ */
     $('.about-me-wrapper').waypoint({
         handler: function() {
-        $('.about-me-container').addClass("show");
-    },
+            $('.about-me-container').addClass("show");
+        },
         offset: '60%'
     });
 
@@ -37,5 +64,6 @@ $(document).ready(function() {
         },
         offset: '60%'
     });
+    /* ------------ End Waypoints ------------ */
 
- });
+});

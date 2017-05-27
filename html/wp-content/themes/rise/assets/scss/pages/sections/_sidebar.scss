@@ -1,6 +1,95 @@
 #sidebar {
-    border: 2px solid $light-gray;
+    border: 1px solid $dark-gray;
     float: right;
     margin: 2em 0;
-    width: 33%;
+    width: 100%;
+
+    @media screen and (min-width: $medium-break) {
+        width: 25%;
+    }
+
+    .categories {
+
+        @media screen and (min-width: $medium-break) {
+            background-color: $off-white;
+        }
+
+        .title {
+            background-color: $light-gray;
+            border-bottom: 1px solid $dark-gray;
+            display: none;
+            font-size: 1.5em;
+            padding: 0.25em 0.5em;
+
+            @media screen and (min-width: $medium-break) {
+                display: block;
+            }
+
+            &.mobile {
+                background-color: $off-white;
+                border: none;
+                display: block;
+
+                @media screen and (min-width: $medium-break) {
+                    display: none;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                .icon-container {
+                    background-color: $light-gray;
+                    border-radius: 50%;
+                    float: right;
+                    height: 35px;
+                    margin-top: 6px;
+                    right: 1em;
+                    transition: transform 0.4s ease;
+                    width: 35px;
+
+                    &.open {
+                        transform: rotate(180deg);
+                        transition: transform 0.4s ease;
+                    }
+
+                    .fa {
+                        display: inline-block;
+                        font-size: 0.7em;
+                        left: 50%;
+                        position: relative;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        vertical-align: top;
+                    }
+                }
+            }
+        }
+
+        .categories-list {
+            background-color: lighten($light-gray, 10%);
+            display: none;
+            padding-bottom: 0.5em;
+
+
+            @media screen and (min-width: $medium-break) {
+                background-color: transparent;
+                display: block;
+            }
+
+            .category-item {
+
+                a {
+                    color: $blue;
+                    display: block;
+                    padding: 0.5em 1em;
+
+                    &:hover {
+                        background-color: $light-gray;
+                        transition: all 0.4s ease;
+                    }
+                }
+            }
+        }
+    }
 }
