@@ -24,7 +24,7 @@
             <?php if ( $posts_query->have_posts() ) : ?>
                 <?php while ( $posts_query->have_posts() ) : ?>
                     <?php $posts_query->the_post(); ?>
-                    <div class="post">
+                    <article class="post">
                         <div class="post-content">
                             <?php if (has_post_thumbnail()) : ?>
                                 <a class="post-image" href="<?php the_permalink(); ?>">
@@ -38,7 +38,7 @@
                             </div>
                             <a class="button-blue" href="<?php the_permalink(); ?>">Read More</a>
                         </div>
-                    </div>
+                    </article>
                 <?php endwhile; ?>
             <?php endif; ?>
         </div>

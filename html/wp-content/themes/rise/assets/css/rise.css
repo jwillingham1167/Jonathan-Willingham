@@ -789,6 +789,11 @@ a:hover {
   background-position: bottom;
 }
 
+.single-post .post-container img {
+  height: auto;
+  max-width: 100%;
+}
+
 #sidebar {
   border: 1px solid #333333;
   float: right;
