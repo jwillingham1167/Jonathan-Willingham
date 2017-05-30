@@ -15,13 +15,13 @@
 </aside>
 
 <script type="text/javascript">
+/*
     var sidebarOffsetTop = $('#sidebar').offset().top - $('#header').height() - 32;
     var sidebarOffsetRight = ($(window).width() - ($('#sidebar').offset().left + $('#sidebar').outerWidth()));
     var headerOffset = $('#header').height();
     var sidebarWidth = $('#sidebar').width();
 
-    var sideBarScroll = $(window).scroll(() => { //scroll function
-
+    var sideBarScroll = $(window).on("scroll", function() { //scroll function
         if ($(window).width() > 768) {
             if (sideBarScroll.scrollTop() >= sidebarOffsetTop) { // Sidebar sticky
                 $('#sidebar').css({
@@ -30,6 +30,7 @@
                     'top' : headerOffset,
                     'width' : sidebarWidth
                 });
+
             } else {
                 $('#sidebar').css({
                     'position' : 'static'
@@ -37,4 +38,5 @@
             }
         }
     });
+*/
 </script>

@@ -44,8 +44,4 @@ $(document).ready(function() {
     });
     /* ------------ End Waypoints ------------ */
 
-    /* ------------ Dynamic Page Margins ------------ */
-    $('.blog, .archive, .single-post').css("margin-top", $('#header').height());
-    /* ------------ End Dynamic Page Margins ------------ */
-
 });
