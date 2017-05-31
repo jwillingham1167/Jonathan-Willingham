@@ -5,3 +5,7 @@
 .button-blue {
     @include button-style($blue, $white);
 }
+
+.button-white {
+    @include button-style($off-white, $black);
+}

@@ -54,30 +54,46 @@
             padding: 2em 1em 4em 1em;
             text-align: center;
 
-            h2 {
+            & > h2 {
                 color: $off-white;
 
-                &:after,
-                &:before {
+                &:after {
                     background-color: $gold;
                     content: '';
                     display: block;
-                    height: 3px;
-                    margin: 0 auto 1em auto;
-                }
-
-                &:before {
-                    margin: 0 auto;
+                    height: 2px;
+                    margin-bottom: 1.5em;
                 }
             }
 
             .flexslider {
                 margin: 0 auto;
-                max-width: 800px;
+                max-width: 1000px;
+
+                .post-image {
+                    background-position: center;
+                    display: table;
+                    height: 500px;
+                    width: 100%;
+                }
+
+                .post-text {
+                    display: table-cell;
+                    vertical-align: middle;
+
+                    .title {
+                        margin-bottom: 1em;
+                    }
+
+                    .button-white {
+                        padding: 0.75em 1.5em;
+                    }
+                }
 
                 .flex-prev {
 
                     &:before {
+                        color: $off-white;
                         font-family: fontawesome;
                         content: '\f0a8';
                     }
@@ -86,6 +102,7 @@
                 .flex-next {
 
                     &:before {
+                        color: $off-white;
                         font-family: fontawesome;
                         content: '\f0a9';
                     }
