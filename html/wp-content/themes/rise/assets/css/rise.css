@@ -2,7 +2,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("//fonts.googleapis.com/css?family=Noto+Sans");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -894,6 +895,7 @@ a:hover {
 }
 
 .single-post .blog-more-wrapper .blog-more .flexslider .post-text .title {
+  color: goldenrod;
   margin-bottom: 1em;
 }
 
@@ -911,6 +913,45 @@ a:hover {
   color: #eeeeee;
   font-family: fontawesome;
   content: '\f0a9';
+}
+
+.single-post pre {
+  background-color: #222;
+  color: #ffffff;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  line-height: normal;
+  overflow-x: scroll;
+  padding: 2em;
+  -moz-tab-size: 4;
+    -o-tab-size: 4;
+       tab-size: 4;
+  text-align: left;
+  white-space: pre;
+}
+
+.single-post pre .red {
+  color: #ff5370;
+}
+
+.single-post pre .orange {
+  color: #f78c6c;
+}
+
+.single-post pre .yellow {
+  color: #ffcb6b;
+}
+
+.single-post pre .green {
+  color: #c3e88d;
+}
+
+.single-post pre .blue {
+  color: #82aaff;
+}
+
+.single-post pre .purple {
+  color: #c792ea;
 }
 
 #sidebar {

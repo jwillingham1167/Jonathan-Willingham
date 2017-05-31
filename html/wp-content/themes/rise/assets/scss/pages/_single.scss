@@ -82,6 +82,7 @@
                     vertical-align: middle;
 
                     .title {
+                        color: $gold;
                         margin-bottom: 1em;
                     }
 
@@ -108,6 +109,43 @@
                     }
                 }
             }
+        }
+    }
+
+    pre {
+        background-color: #222;
+        color: $white;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 16px;
+        line-height: normal;
+        overflow-x: scroll;
+        padding: 2em;
+        tab-size: 4;
+        text-align: left;
+        white-space: pre;
+
+        .red {
+            color: #ff5370;
+        }
+
+        .orange {
+            color: #f78c6c;
+        }
+
+        .yellow {
+            color: #ffcb6b;
+        }
+
+        .green {
+            color: #c3e88d;
+        }
+
+        .blue {
+            color: #82aaff;
+        }
+
+        .purple {
+            color: #c792ea;
         }
     }
 }
