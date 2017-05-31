@@ -2,7 +2,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("//fonts.googleapis.com/css?family=Noto+Sans");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -243,6 +244,24 @@ a:hover {
 .button-blue:hover {
   background-color: #55accc;
   color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.button-white {
+  border: 3px solid #eeeeee;
+  color: #eeeeee;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0.5em 0.75em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.button-white:hover {
+  background-color: #eeeeee;
+  color: #000000;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -787,6 +806,152 @@ a:hover {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/yosemite-valley.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/yosemite-valley.jpg");
   background-position: bottom;
+}
+
+.single-post {
+  margin-top: 4em;
+}
+
+.single-post #sidebar {
+  margin-top: 2em;
+}
+
+.single-post .post {
+  padding: 2em 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .single-post .post {
+    width: 73%;
+  }
+}
+
+.single-post .post img {
+  height: auto;
+  max-width: 100%;
+}
+
+.single-post .post .meta .post-categories {
+  display: inline-block;
+}
+
+.single-post .post .meta .post-categories li {
+  display: inline;
+}
+
+.single-post .post .meta .post-categories li a {
+  padding: 0 0.15em;
+}
+
+.single-post .post .post-content {
+  border-top: 1px solid #cccccc;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+.single-post .blog-more-wrapper {
+  left: 50%;
+  margin-left: -50vw;
+  position: relative;
+  width: 100vw;
+  background-color: #333333;
+}
+
+.single-post .blog-more-wrapper .blog-more {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 2em 1em 4em 1em;
+  text-align: center;
+}
+
+.single-post .blog-more-wrapper .blog-more > h2 {
+  color: #eeeeee;
+}
+
+.single-post .blog-more-wrapper .blog-more > h2:after {
+  background-color: goldenrod;
+  content: '';
+  display: block;
+  height: 2px;
+  margin-bottom: 1.5em;
+}
+
+.single-post .blog-more-wrapper .blog-more .flexslider {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.single-post .blog-more-wrapper .blog-more .flexslider .post-image {
+  background-position: center;
+  display: table;
+  height: 500px;
+  width: 100%;
+}
+
+.single-post .blog-more-wrapper .blog-more .flexslider .post-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.single-post .blog-more-wrapper .blog-more .flexslider .post-text .title {
+  color: goldenrod;
+  margin-bottom: 1em;
+}
+
+.single-post .blog-more-wrapper .blog-more .flexslider .post-text .button-white {
+  padding: 0.75em 1.5em;
+}
+
+.single-post .blog-more-wrapper .blog-more .flexslider .flex-prev:before {
+  color: #eeeeee;
+  font-family: fontawesome;
+  content: '\f0a8';
+}
+
+.single-post .blog-more-wrapper .blog-more .flexslider .flex-next:before {
+  color: #eeeeee;
+  font-family: fontawesome;
+  content: '\f0a9';
+}
+
+.single-post pre {
+  background-color: #222;
+  color: #ffffff;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  line-height: normal;
+  overflow-x: scroll;
+  padding: 2em;
+  -moz-tab-size: 4;
+    -o-tab-size: 4;
+       tab-size: 4;
+  text-align: left;
+  white-space: pre;
+}
+
+.single-post pre .red {
+  color: #ff5370;
+}
+
+.single-post pre .orange {
+  color: #f78c6c;
+}
+
+.single-post pre .yellow {
+  color: #ffcb6b;
+}
+
+.single-post pre .green {
+  color: #c3e88d;
+}
+
+.single-post pre .blue {
+  color: #82aaff;
+}
+
+.single-post pre .purple {
+  color: #c792ea;
 }
 
 #sidebar {

@@ -11,8 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <?php wp_enqueue_script( 'waypoints', get_template_directory_uri() . '/assets/js/vendor/jquery.waypoints.min.js');
-          wp_enqueue_script( 'main_script', get_template_directory_uri() . '/assets/js/scripts.js'); ?>
-    <?php wp_enqueue_style( 'styles', get_stylesheet_uri() ); ?>
+          wp_enqueue_script( 'flexslider-js', get_template_directory_uri() . '/assets/js/vendor/jquery.flexslider-min.js');
+          wp_enqueue_script( 'main_script', get_template_directory_uri() . '/assets/js/scripts.js');
+          wp_enqueue_style( 'flexslider-css', get_template_directory_uri() . '/assets/css/vendor/flexslider.css');
+          wp_enqueue_style( 'styles', get_stylesheet_uri() ); ?>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
