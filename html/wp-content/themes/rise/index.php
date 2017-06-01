@@ -6,9 +6,12 @@
 
 <?php get_header() ?>
 
-<div class="homepage-landing">
-    <h1 class="landing-title">Jonathan Willingham</h1>
-</div>
+<!-- <div class="homepage-landing-wrapper"> -->
+    <div class="homepage-landing">
+        <h1 class="landing-title">Jonathan Willingham</h1>
+    </div>    
+<!-- </div> -->
+
 <div class="about-me-wrapper">
     <div class="about-me-container">
         <h2>About Me</h2>

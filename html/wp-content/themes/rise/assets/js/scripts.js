@@ -25,6 +25,8 @@ $(document).ready(function() {
             'bottom' : -($(this).scrollTop()/1.75)+"px"
         });
 
+        // $('.homepage-landing').css({"transform":"translateY(" + $(this).scrollTop()/3 + "px)"});
+
     });
     /* ------------ End Scroll Functions ------------ */
 
