@@ -1,0 +1,23 @@
+.no-route {
+
+    .no-route-container {
+        display: table;
+        height: 80vh;
+        width: 100%;
+
+        .text {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        h2 {
+            font-weight: bold;
+        }
+
+        .large {
+            font-size: 12em;
+            line-height: normal;
+        }
+    }
+}

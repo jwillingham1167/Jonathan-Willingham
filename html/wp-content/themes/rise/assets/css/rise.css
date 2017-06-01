@@ -352,6 +352,7 @@ a:hover {
 
 #header .menu li a {
   color: #eeeeee;
+  font-weight: bold;
 }
 
 #header .menu li a:hover {
@@ -566,9 +567,11 @@ a:hover {
 
 .home .about-me-wrapper .about-me-container h2 {
   color: #eeeeee;
-  border-bottom: 3px solid #eeeeee;
+  border-bottom: 3px solid #333333;
   font-size: 3em;
+  font-weight: bold;
   margin: 0 auto;
+  max-width: 600px;
   text-align: center;
 }
 
@@ -641,7 +644,9 @@ a:hover {
   max-width: 1440px;
   border-bottom: 5px solid #55accc;
   font-size: 3em;
+  font-weight: bold;
   margin-bottom: 1em;
+  max-width: 600px;
   text-align: center;
 }
 
@@ -760,7 +765,10 @@ a:hover {
 }
 
 .blog .posts-container .post .post-text .title, .archive .posts-container .post .post-text .title {
-  font-size: 1.55em;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: normal;
+  margin: 0.25em 0;
 }
 
 .blog .posts-container .post .post-text .title a, .archive .posts-container .post .post-text .title a {
@@ -773,7 +781,7 @@ a:hover {
 
 .blog .posts-container .post .post-text .meta, .archive .posts-container .post .post-text .meta {
   font-size: 0.75em;
-  margin: 0.25em 0;
+  margin-bottom: 1em;
 }
 
 .blog .posts-container .post .post-text .meta .divider, .archive .posts-container .post .post-text .meta .divider {
@@ -830,6 +838,10 @@ a:hover {
 .single-post .post img {
   height: auto;
   max-width: 100%;
+}
+
+.single-post .post .title {
+  font-weight: bold;
 }
 
 .single-post .post .meta .post-categories {
@@ -954,6 +966,27 @@ a:hover {
   color: #c792ea;
 }
 
+.no-route .no-route-container {
+  display: table;
+  height: 80vh;
+  width: 100%;
+}
+
+.no-route .no-route-container .text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.no-route .no-route-container h2 {
+  font-weight: bold;
+}
+
+.no-route .no-route-container .large {
+  font-size: 12em;
+  line-height: normal;
+}
+
 #sidebar {
   border: 1px solid #333333;
   float: right;
@@ -978,6 +1011,7 @@ a:hover {
   border-bottom: 1px solid #333333;
   display: none;
   font-size: 1.5em;
+  font-weight: bold;
   padding: 0.25em 0.5em;
 }
 
