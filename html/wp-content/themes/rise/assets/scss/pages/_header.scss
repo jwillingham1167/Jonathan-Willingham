@@ -94,35 +94,18 @@
             display: none;
         }
     }
-}
 
-#mobile-nav {
-    background-color: $black;
-    box-shadow: 0 0 50px $black;
-    height: 100vh;
-    padding: 2em 0;
-    position: fixed;
-    left: -50%;
-    text-align: center;
-    top: 0;
-    transition: 0.5s left ease;
-    width: 50%;
-    z-index: 20;
+    #mobile-nav {
+        display: none;
+        padding: 1em;
 
-    &.show {
-        left: 0;
-        transition: 0.5s left ease;
-    }
+        li {
+            display: block;
+        }
 
-    a {
-        display: block;
-        padding: 1em 0;
-        transition: 0.4s background-color ease;
-
-        &:hover {
-            background-color: lighten($dark-gray, 10%);
-            color: $gold;
-            transition: 0.4s background-color ease;
+        a {
+            display: table;
+            padding: 0.5em 0;
         }
     }
 }

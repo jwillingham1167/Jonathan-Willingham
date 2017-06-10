@@ -4,8 +4,7 @@ $(document).ready(function() {
     $('#header .mobile-toggle').on("click", function() {
         // Switch between close and menu icon
         $(this).toggleClass("fa-times fa-bars");
-        $('#mobile-nav').toggleClass("show");
-        $('.body-wrapper').toggleClass("slide");
+        $('#mobile-nav').slideToggle();
     });
 
     $('#sidebar .title.mobile').on("click", function() {

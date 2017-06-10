@@ -2,17 +2,6 @@
 * General Body Styles
 */
 
-.body-wrapper {
-    position: relative;
-    left: 0;
-    transition: 0.5s left ease;
-
-    &.slide {
-        left: 50%;
-        transition: 0.5s left ease;
-    }
-}
-
 #maincontent {
     @include max-width-center;
     padding: 0 1em;
