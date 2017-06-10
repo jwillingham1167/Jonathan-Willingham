@@ -269,19 +269,6 @@ a:hover {
 /*
 * General Body Styles
 */
-.body-wrapper {
-  position: relative;
-  left: 0;
-  -webkit-transition: 0.5s left ease;
-  transition: 0.5s left ease;
-}
-
-.body-wrapper.slide {
-  left: 50%;
-  -webkit-transition: 0.5s left ease;
-  transition: 0.5s left ease;
-}
-
 #maincontent {
   margin: 0 auto;
   max-width: 1440px;
@@ -397,40 +384,18 @@ a:hover {
   }
 }
 
-#mobile-nav {
-  background-color: #000000;
-  -webkit-box-shadow: 0 0 50px #000000;
-          box-shadow: 0 0 50px #000000;
-  height: 100vh;
-  padding: 2em 0;
-  position: fixed;
-  left: -50%;
-  text-align: center;
-  top: 0;
-  -webkit-transition: 0.5s left ease;
-  transition: 0.5s left ease;
-  width: 50%;
-  z-index: 20;
+#header #mobile-nav {
+  display: none;
+  padding: 1em;
 }
 
-#mobile-nav.show {
-  left: 0;
-  -webkit-transition: 0.5s left ease;
-  transition: 0.5s left ease;
-}
-
-#mobile-nav a {
+#header #mobile-nav li {
   display: block;
-  padding: 1em 0;
-  -webkit-transition: 0.4s background-color ease;
-  transition: 0.4s background-color ease;
 }
 
-#mobile-nav a:hover {
-  background-color: #4d4d4d;
-  color: goldenrod;
-  -webkit-transition: 0.4s background-color ease;
-  transition: 0.4s background-color ease;
+#header #mobile-nav a {
+  display: table;
+  padding: 0.5em 0;
 }
 
 /* 
