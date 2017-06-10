@@ -1,11 +1,4 @@
-.home {
-
-    // .homepage-landing-wrapper {
-    //     @include full-width;
-    //     background-color: $black;
-    //     height: 100vh;
-    //     width: 100vw;
-    // }
+.homepage {
 
     .homepage-landing {
         @include full-width;
@@ -15,7 +8,6 @@
         background-size: cover;
         background-position: center;
         display: table;
-        // height: 100%;
         height: 100vh;
         overflow: hidden;
 
@@ -37,13 +29,7 @@
 
     .about-me-wrapper {
         @include full-width;
-        // animation-name: fade-in, about-me-slide-down;
-        // animation-duration: 1s, 1s;
-        // animation-timing-function: ease, ease;
-        // animation-delay: 0s, 1s;
-        // animation-fill-mode: none, forwards;
         background-color: $blue;
-        //margin-top: -25vh; // Keyframes animation setup
         padding: 2em 0;
 
         .about-me-container {
