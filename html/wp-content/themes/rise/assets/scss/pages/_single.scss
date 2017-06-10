@@ -46,7 +46,7 @@
 
     .blog-more-wrapper {
         @include full-width;
-        background-color: $dark-gray;
+        background-color: $dark-gray-darken;
 
         .blog-more {
             margin: 0 auto;
@@ -56,13 +56,18 @@
 
             & > h2 {
                 color: $off-white;
+                font-size: 3em;
+                font-weight: bold;
 
                 &:after {
                     background-color: $gold;
                     content: '';
                     display: block;
-                    height: 2px;
+                    height: 5px;
                     margin-bottom: 1.5em;
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 600px;
                 }
             }
 
