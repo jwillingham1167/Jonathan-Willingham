@@ -17,7 +17,7 @@
           wp_enqueue_style( 'styles', get_stylesheet_uri() ); ?>
     <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
+<body <?php //body_class(); ?>>
 
         <header id="header" <?php if (is_home()) : ?>class="animate"<?php endif; ?>>
             <div class="header-container">

@@ -5,8 +5,4 @@
 #maincontent {
     @include max-width-center;
     padding: 0 1em;
-
-    .blog {
-        margin: 1em 0;
-    }
 }
