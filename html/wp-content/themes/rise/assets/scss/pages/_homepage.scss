@@ -16,6 +16,7 @@
             color: $off-white;
             display: table-cell;
             font-size: 8vw;
+            font-weight: bold;
             opacity: 0;
             position: relative;
             text-align: center;
@@ -70,16 +71,20 @@
                 background-color: $dark-gray;
                 border-radius: 50%;
                 display: table;
-                height: 125px;
+                height: 110px;
                 margin: 0 auto;
                 text-align: center;
-                width: 125px;
+                width: 110px;
 
                 i {
                     color: $off-white;
                     display: table-cell;
-                    font-size: 5em;
+                    font-size: 3em;
                     vertical-align: middle;
+                }
+
+                .fa-mobile {
+                    font-size: 5em;
                 }
             }
 
@@ -138,7 +143,7 @@
                 img {
                     height: auto;
                     max-height: 250px;
-                    max-width: 100%;
+                    max-width: 200px;
                     position: relative;
                     vertical-align: middle;
                 }

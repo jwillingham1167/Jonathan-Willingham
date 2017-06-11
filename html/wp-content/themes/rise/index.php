@@ -17,29 +17,29 @@
             <h2>About Me</h2>
             <div class="content-wrapper">
                 <div class="icon-container">
-                    <i class="fa fa-codepen" aria-hidden="true"></i>
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
                 </div>
                 <div class="text">
-                    <h3>Lorem Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                    <h3>Responsive Design</h3>
+                    <p>Today, mobile devices are used regularly. It is crucial to have a responsive website that functions across all devices. I develop mobile first in order to promote usability on mobile devices that will respond and work seamlessly on larger devices.</p>
                 </div>
             </div>
             <div class="content-wrapper">
                 <div class="icon-container">
-                    <i class="fa fa-codepen" aria-hidden="true"></i>
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
                 </div>
                 <div class="text">
-                    <h3>Lorem Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                    <h3>eCommerce</h3>
+                    <p>I am currently an eCommere Web Developer. I primarly work with two platforms: Magento and Shopify. I am also comfortable developing other sites, such a a blog built on Wordpress.</p>
                 </div>
             </div>
             <div class="content-wrapper">
                 <div class="icon-container">
-                    <i class="fa fa-codepen" aria-hidden="true"></i>
+                    <i class="fa fa-check" aria-hidden="true"></i>
                 </div>
                 <div class="text">
-                    <h3>Lorem Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                    <h3>Passionate</h3>
+                    <p>I enjoy learning new skills and applying them in as many ways as I can. I make an effort to follow best practices and keep my code as clean as possible. I strive to develop applications that others are pleased with.</p>
                 </div>
             </div>
         </div>

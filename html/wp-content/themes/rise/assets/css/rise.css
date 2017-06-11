@@ -314,6 +314,7 @@ a:hover {
   border-bottom: 5px solid goldenrod;
   border-top: 5px solid goldenrod;
   color: #eeeeee;
+  font-weight: bold;
   line-height: normal;
   text-align: center;
 }
@@ -419,6 +420,7 @@ a:hover {
   border-bottom: 5px solid goldenrod;
   border-top: 5px solid goldenrod;
   display: table;
+  font-weight: bold;
   line-height: normal;
   margin: 0 auto;
   text-align: center;
@@ -483,6 +485,7 @@ a:hover {
   color: #eeeeee;
   display: table-cell;
   font-size: 8vw;
+  font-weight: bold;
   opacity: 0;
   position: relative;
   text-align: center;
@@ -554,17 +557,21 @@ a:hover {
   background-color: #333333;
   border-radius: 50%;
   display: table;
-  height: 125px;
+  height: 110px;
   margin: 0 auto;
   text-align: center;
-  width: 125px;
+  width: 110px;
 }
 
 .homepage .about-me-wrapper .about-me-container .icon-container i {
   color: #eeeeee;
   display: table-cell;
-  font-size: 5em;
+  font-size: 3em;
   vertical-align: middle;
+}
+
+.homepage .about-me-wrapper .about-me-container .icon-container .fa-mobile {
+  font-size: 5em;
 }
 
 .homepage .about-me-wrapper .about-me-container .text {
@@ -631,7 +638,7 @@ a:hover {
 .homepage .tools-container .tool-images .image-container img {
   height: auto;
   max-height: 250px;
-  max-width: 100%;
+  max-width: 200px;
   position: relative;
   vertical-align: middle;
 }
