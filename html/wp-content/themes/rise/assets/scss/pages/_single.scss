@@ -41,6 +41,10 @@
             border-top: 1px solid $light-gray;
             margin-top: 1em;
             padding-top: 1em;
+
+            h3 {
+                font-size: 1.5em;
+            }
         }
     }
 
@@ -124,7 +128,7 @@
         font-size: 16px;
         line-height: normal;
         overflow-x: scroll;
-        padding: 2em;
+        padding: 0 1em;
         tab-size: 4;
         text-align: left;
         white-space: pre;
@@ -151,6 +155,10 @@
 
         .purple {
             color: #c792ea;
+        }
+
+        span {
+            font-family: 'Source Code Pro', monospace;
         }
     }
 }

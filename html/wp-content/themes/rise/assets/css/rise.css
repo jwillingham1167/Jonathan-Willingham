@@ -197,6 +197,15 @@ h4 {
   line-height: 1.75em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
 p {
   line-height: 1.5em;
 }
@@ -834,6 +843,10 @@ a:hover {
   padding-top: 1em;
 }
 
+.single-post .post .post-content h3 {
+  font-size: 1.5em;
+}
+
 .single-post .blog-more-wrapper {
   left: 50%;
   margin-left: -50vw;
@@ -911,7 +924,7 @@ a:hover {
   font-size: 16px;
   line-height: normal;
   overflow-x: scroll;
-  padding: 2em;
+  padding: 0 1em;
   -moz-tab-size: 4;
     -o-tab-size: 4;
        tab-size: 4;
@@ -941,6 +954,10 @@ a:hover {
 
 .single-post pre .purple {
   color: #c792ea;
+}
+
+.single-post pre span {
+  font-family: 'Source Code Pro', monospace;
 }
 
 .page .page-content {
