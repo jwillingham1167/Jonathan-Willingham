@@ -42,8 +42,17 @@
             margin-top: 1em;
             padding-top: 1em;
 
+            .cp_embed_wrapper {
+                margin: 1em 0;
+            }
+
             h3 {
                 font-size: 1.5em;
+                margin-top: 1em;
+            }
+
+            p {
+                margin: 1em 0;
             }
         }
     }
@@ -127,6 +136,7 @@
         font-family: 'Source Code Pro', monospace;
         font-size: 16px;
         line-height: normal;
+        margin: 1em 0;
         overflow-x: scroll;
         padding: 0 1em;
         tab-size: 4;
@@ -155,6 +165,10 @@
 
         .purple {
             color: #c792ea;
+        }
+
+        .gray {
+            color: #777;
         }
 
         span {
