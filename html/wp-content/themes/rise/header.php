@@ -7,12 +7,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <title><?php bloginfo( 'name' ); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jonathan Willingham - Development Blog &amp; Code Snippets</title>
-    <meta name="description" content="Jonathan Willingham - Development Blog &amp; Code Snippets">
-    <meta name="author" content="Jonathan Willingham" />
-    <link rel="canonical" href="http://www.jonathanwillingham.com/">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <?php wp_enqueue_script( 'waypoints', get_template_directory_uri() . '/assets/js/vendor/jquery.waypoints.min.js');
           wp_enqueue_script( 'flexslider-js', get_template_directory_uri() . '/assets/js/vendor/jquery.flexslider-min.js');
