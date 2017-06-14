@@ -856,6 +856,10 @@ a:hover {
   margin: 1em 0;
 }
 
+.single-post .post .post-content hr {
+  border-top: 1px solid goldenrod;
+}
+
 .single-post .blog-more-wrapper {
   left: 50%;
   margin-left: -50vw;
@@ -943,7 +947,7 @@ a:hover {
 }
 
 .single-post pre .red {
-  color: #ff5370;
+  color: #ef5350;
 }
 
 .single-post pre .orange {

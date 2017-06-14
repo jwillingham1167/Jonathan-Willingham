@@ -54,6 +54,10 @@
             p {
                 margin: 1em 0;
             }
+
+            hr {
+                border-top: 1px solid $gold;
+            }
         }
     }
 
@@ -144,7 +148,7 @@
         white-space: pre;
 
         .red {
-            color: #ff5370;
+            color: #ef5350;
         }
 
         .orange {
