@@ -7,7 +7,6 @@ get_header(); ?>
 
 <div id="body-content" class="single-post content-area">
 
-    <?php get_sidebar(); ?>
     <article id="post-<?php the_ID(); ?>" class="post">
         <?php if (have_posts()): ?>
             <?php while (have_posts()): ?>
@@ -18,6 +17,7 @@ get_header(); ?>
                 <div class="post-content"><p><?php the_content(); ?></div>
             <?php endwhile; ?>
         <?php endif; ?>
+        <?php get_sidebar(); ?>
     </article><!-- #post-## -->
 
     <div class="blog-more-wrapper">

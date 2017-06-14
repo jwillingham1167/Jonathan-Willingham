@@ -802,18 +802,17 @@ a:hover {
 }
 
 .single-post #sidebar {
-  margin-top: 2em;
-}
-
-.single-post .post {
-  padding: 2em 0;
+  float: none;
+  margin-top: 4em;
   width: 100%;
 }
 
-@media screen and (min-width: 768px) {
-  .single-post .post {
-    width: 73%;
-  }
+.single-post .post {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding: 2em 0;
+  width: 100%;
 }
 
 .single-post .post img {
