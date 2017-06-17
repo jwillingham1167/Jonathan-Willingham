@@ -859,6 +859,14 @@ a:hover {
   border-top: 1px solid goldenrod;
 }
 
+.single-post .post .post-content .code {
+  background-color: #eeeeee;
+  color: #000000;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  padding: 0 0.5em;
+}
+
 .single-post .blog-more-wrapper {
   left: 50%;
   margin-left: -50vw;
@@ -971,6 +979,10 @@ a:hover {
 
 .single-post pre .gray {
   color: #777;
+}
+
+.single-post pre .light-blue {
+  color: #b2ccd6;
 }
 
 .single-post pre span {

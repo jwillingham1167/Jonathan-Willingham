@@ -63,6 +63,14 @@
             hr {
                 border-top: 1px solid $gold;
             }
+
+            .code {
+                background-color: $off-white;
+                color: $black;
+                font-family: 'Source Code Pro', monospace;
+                font-weight: bold;
+                padding: 0 0.5em;
+            }
         }
     }
 
@@ -178,6 +186,10 @@
 
         .gray {
             color: #777;
+        }
+
+        .light-blue {
+            color: #b2ccd6;
         }
 
         span {

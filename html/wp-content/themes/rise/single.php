@@ -33,7 +33,7 @@ get_header(); ?>
                         <?php while ( $posts_query->have_posts() ) : ?>
                             <?php $posts_query->the_post(); ?>
                             <li class="flexslider-post">
-                                <div class="post-image" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('<?php the_post_thumbnail_url() ?>');">
+                                <div class="post-image" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('<?php the_post_thumbnail_url() ?>');">
                                     <div class="post-text">
                                         <h3 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                                         <a class="button-white" href="<?php the_permalink(); ?>">Read More</a>
